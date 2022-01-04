@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+}
+section{
+    margin-bottom: 150px;
+}
+#topflexible{
+    display: flex;
+    position: left;
+    background-image: url(images/top-banner.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+}
+.half-width p{
+    color:dimgray;
+    text-align: justify;
+    padding-right: 10%;
+}
+.half-width img{
+    width: 75%;
+    margin-top: 0.5%;
+}
+.colorful-heading{
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.middlecontainer{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+}
+.lastflexible{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-position:  top left;
+    background-repeat: no-repeat;
+}
+#shadow-box{
+    box-shadow: 5px 7px 40px grey;
+    
+}
+.shadow-1{
+    padding: 2%;
+    margin: 2%;
+    height: 350px;
+    text-align: center;
+}
+.shadow-2{
+    padding: 2%;
+    margin: 2%;
+    height: 350px;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.last-flexible-heading{
+    text-align: center;
+}
+.link-button:hover{
+    background-color: orange;
+    transition-duration: 0.5s;
+}
+.shadow-1:hover{
+    background-color: orange;
+    transition-duration: 0.5s;
+    
+}
+.shadow-2:hover{
+    background-color: orange;
+    transition-duration: 0.5s;
+    
+}
+
+
