@@ -54,21 +54,26 @@ section{
     background-position:  top left;
     background-repeat: no-repeat;
 }
-#shadow-box{
+
+#music-box{
+    padding: 2%;
+    margin: 2%;
+    height: 350px;
+    text-align: center;
     box-shadow: 5px 7px 40px grey;
-    
+    border-image: linear-gradient(blue,green);
+    border-image-slice: 1;
+    border-left: 7px solid;
 }
-.shadow-1{
+#writer-box{
     padding: 2%;
     margin: 2%;
     height: 350px;
     text-align: center;
-}
-.shadow-2{
-    padding: 2%;
-    margin: 2%;
-    height: 350px;
-    text-align: center;
+    box-shadow: 5px 7px 40px grey;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    border-left: 7px solid;
 }
 .copyright{
     text-align: center;
@@ -82,15 +87,18 @@ section{
     background-color: orange;
     transition-duration: 0.5s;
 }
-.shadow-1:hover{
+
+
+#music-box:hover{
     background-color: orange;
     transition-duration: 0.5s;
     
 }
-.shadow-2:hover{
+#writer-box:hover{
     background-color: orange;
     transition-duration: 0.5s;
-    
+
 }
+
 
 
